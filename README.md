@@ -18,11 +18,19 @@ Everything was developed using Python 3.7, Windows 10 OS and Tensorflow 2.0 libr
 
 ### Usage
 
-For simple interaction with X4M03 radar module on Windows 10 OS, run **read_raw_data.py** script.
+For simple interaction with X4M03 radar module on Windows 10 OS run:
+```
+python read_raw_data.py
+```
+For training the model using Random Forest and XGBoost run:
+```
+python std_classifiers.py
+```
 
-For training the model using Random Forest and XGBoost run **std_classifiers.py** script.
-
-For training the model using custom neural network run **nn_train.py** script.
+For training the model using custom neural network run:
+```
+python nn_train.py
+```
 
 ### Dataset link
 
